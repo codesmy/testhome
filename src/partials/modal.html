@@ -1,0 +1,43 @@
+<div class="modals">
+  <div class="modal-overlay">
+    <div class="modal modal--one" data-target="form-popup">
+      <div class="form-wrap">
+        <div class="title">Быстро оставить заявку</div>
+      <div class="subtitle">
+        Введите номер, мы позвоним вам в течение 10 минут в рабочее время
+      </div>
+      <span> Пн–Пт 9:00 - 18:00, Сб 10:00 - 18:00 </span>
+      <form action="" class="form">
+        <label for="tel">Введите номер телефона</label>
+        <input type="tel" id="tel" data-validate-field="tel" name="tel" placeholder="+7 (___) ___-__-__" required/>
+        <button class="btn btn-orange btn-submit">
+          Позвонить мне
+          <svg class="icon icon-arrow">
+            <use xlink:href="img/sprite.svg#arrow"></use>
+          </svg>
+        </button>
+        <div class="acceptance">
+          <input type="checkbox" name="acceptance" id="acceptance" checked />
+          <label class="acceptance__label" for="acceptance">
+            <div class="acceptance__check">
+              <svg class="icon icon-check">
+                <use xlink:href="img/sprite.svg#check"></use>
+              </svg>
+            </div>
+          </label>
+          <p>
+            Нажимая кнопку вы соглашаетесь с условиями <br />
+            <a href="#" class="link link-orange">Политики конфиденциальности</a>
+          </p>
+        </div>
+      </form>
+      </div>
+      <div class="form-allert">
+        <div class="title">Ваша заявка успешно отправлена!</div>
+        <div class="subtitle">
+          В течение 1 рабочего дня с вами свяжется наш менеджер
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

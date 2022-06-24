@@ -1,0 +1,41 @@
+.btn {
+  padding: 28px 53px;
+
+  box-shadow: inset 0px 0px 22px rgba(255, 255, 255, 0.25);
+  border-radius: 500px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #ffffff;
+  @include m {
+    font-size: 10px;
+    line-height: 16px;
+    padding: 14px 45px;
+  }
+  &-green {
+    background: #12c868;
+    &:hover {
+      background: #21e27c;
+    }
+  }
+  &-orange {
+    background: #f38120;
+    &:hover {
+      background: #fd9c49;
+    }
+  }
+  .icon {
+    width: 20px;
+    height: 20px;
+    fill: #fff;
+    @include m {
+    width: 15px;
+    height: 15px;
+    }
+  }
+}
